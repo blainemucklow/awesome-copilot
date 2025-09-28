@@ -45,6 +45,8 @@ Feature goal described (3-5 sentences)
 
 ##### System Architecture Overview
 
+Use `/docs/ways-of-work/plan/{epic-name}/arch.md` if it exists. If it doesn't follow the prompt in `.github/prompts/breakdown-epic-arch.prompt.md` to create one.
+
 Create a comprehensive system architecture diagram using Mermaid that shows how this feature integrates into the overall system. The diagram should include:
 
 - **Frontend Layer**: User interface components, state management, and client-side logic
@@ -55,12 +57,13 @@ Create a comprehensive system architecture diagram using Mermaid that shows how 
 
 Use subgraphs to organize these layers clearly. Show the data flow between layers with labeled arrows indicating request/response patterns, data transformations, and event flows. Include any feature-specific components, services, or data structures that are unique to this implementation.
 
-- **Technology Stack Selection**: Document choice rationale for each layer
+Use `/docs/ways-of-work/plan/{epic-name}/arch.md` guidance on technology stack.
+- **Technology Stack Selection**: Document choice rationale for each layer if changes to the arch.md need to occur for this feature.
 ```
 
 - **Technology Stack Selection**: Document choice rationale for each layer
 - **Integration Points**: Define clear boundaries and communication protocols
-- **Deployment Architecture**: Docker containerization strategy
+- **Deployment Architecture**: Podman containerization strategy
 - **Scalability Considerations**: Horizontal and vertical scaling approaches
 
 ##### Database Schema Design

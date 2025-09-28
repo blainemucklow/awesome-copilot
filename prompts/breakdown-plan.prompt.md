@@ -37,6 +37,7 @@ Before using this prompt, ensure you have the complete testing workflow artifact
 1. **Feature PRD**: `/docs/ways-of-work/plan/{epic-name}/{feature-name}.md`
 2. **Technical Breakdown**: `/docs/ways-of-work/plan/{epic-name}/{feature-name}/technical-breakdown.md`
 3. **Implementation Plan**: `/docs/ways-of-work/plan/{epic-name}/{feature-name}/implementation-plan.md`
+4. **Tasks Breakdown**: `/docs/ways-of-work/plan/{epic-name}/{feature-name}/tasks-breakdown.md`
 
 ### Related Planning Prompts
 
